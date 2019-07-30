@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-#import "CYXCalenderView/CYXCalendarView.h"
+#import "CYXCalendarView.h"
 @interface ViewController ()
 
 @property (nonatomic,strong) CYXCalendarView *calendarView;

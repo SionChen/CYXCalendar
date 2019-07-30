@@ -15,13 +15,13 @@
 		8B5BA17022EE83300042A47C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA16F22EE83300042A47C /* main.m */; };
 		8B5BA17A22EE83310042A47C /* CYXCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA17922EE83310042A47C /* CYXCalendarTests.m */; };
 		8B5BA18522EE83310042A47C /* CYXCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA18422EE83310042A47C /* CYXCalendarUITests.m */; };
-		8B5BA1AA22EEA07B0042A47C /* CalendarDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1A322EEA07A0042A47C /* CalendarDataLoader.m */; };
-		8B5BA1AB22EEA07B0042A47C /* CYXCalendarMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1A822EEA07B0042A47C /* CYXCalendarMonth.m */; };
-		8B5BA1AC22EEA07B0042A47C /* CYXCalendarDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1A922EEA07B0042A47C /* CYXCalendarDay.m */; };
-		8B5BA1AF22EEA0CF0042A47C /* CYXCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1AE22EEA0CF0042A47C /* CYXCalendarView.m */; };
-		8B5BA1B222EEA43F0042A47C /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1B022EEA43F0042A47C /* UIView+Size.m */; };
-		8B5BA1B522EECC660042A47C /* CYXCalendarMonthTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1B422EECC660042A47C /* CYXCalendarMonthTableViewCell.m */; };
-		8B5BA1B822EECFEB0042A47C /* CYXCalendarDayCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1B722EECFEB0042A47C /* CYXCalendarDayCollectionViewCell.m */; };
+		8B5BA1CA22EFF2DC0042A47C /* CalendarDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1BB22EFF2DC0042A47C /* CalendarDataLoader.m */; };
+		8B5BA1CB22EFF2DC0042A47C /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1BC22EFF2DC0042A47C /* UIView+Size.m */; };
+		8B5BA1CC22EFF2DC0042A47C /* CYXCalendarMonthTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1C122EFF2DC0042A47C /* CYXCalendarMonthTableViewCell.m */; };
+		8B5BA1CD22EFF2DC0042A47C /* CYXCalendarDayCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1C222EFF2DC0042A47C /* CYXCalendarDayCollectionViewCell.m */; };
+		8B5BA1CE22EFF2DC0042A47C /* CYXCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1C422EFF2DC0042A47C /* CYXCalendarView.m */; };
+		8B5BA1CF22EFF2DC0042A47C /* CYXCalendarMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1C822EFF2DC0042A47C /* CYXCalendarMonth.m */; };
+		8B5BA1D022EFF2DC0042A47C /* CYXCalendarDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1C922EFF2DC0042A47C /* CYXCalendarDay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,20 +58,20 @@
 		8B5BA18022EE83310042A47C /* CYXCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYXCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5BA18422EE83310042A47C /* CYXCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYXCalendarUITests.m; sourceTree = "<group>"; };
 		8B5BA18622EE83310042A47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B5BA1A322EEA07A0042A47C /* CalendarDataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDataLoader.m; sourceTree = "<group>"; };
-		8B5BA1A422EEA07A0042A47C /* CalendarDataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDataLoader.h; sourceTree = "<group>"; };
-		8B5BA1A622EEA07B0042A47C /* CYXCalendarDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXCalendarDay.h; sourceTree = "<group>"; };
-		8B5BA1A722EEA07B0042A47C /* CYXCalendarMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXCalendarMonth.h; sourceTree = "<group>"; };
-		8B5BA1A822EEA07B0042A47C /* CYXCalendarMonth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXCalendarMonth.m; sourceTree = "<group>"; };
-		8B5BA1A922EEA07B0042A47C /* CYXCalendarDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXCalendarDay.m; sourceTree = "<group>"; };
-		8B5BA1AD22EEA0CF0042A47C /* CYXCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYXCalendarView.h; sourceTree = "<group>"; };
-		8B5BA1AE22EEA0CF0042A47C /* CYXCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYXCalendarView.m; sourceTree = "<group>"; };
-		8B5BA1B022EEA43F0042A47C /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
-		8B5BA1B122EEA43F0042A47C /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
-		8B5BA1B322EECC660042A47C /* CYXCalendarMonthTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYXCalendarMonthTableViewCell.h; sourceTree = "<group>"; };
-		8B5BA1B422EECC660042A47C /* CYXCalendarMonthTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYXCalendarMonthTableViewCell.m; sourceTree = "<group>"; };
-		8B5BA1B622EECFEB0042A47C /* CYXCalendarDayCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYXCalendarDayCollectionViewCell.h; sourceTree = "<group>"; };
-		8B5BA1B722EECFEB0042A47C /* CYXCalendarDayCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYXCalendarDayCollectionViewCell.m; sourceTree = "<group>"; };
+		8B5BA1BA22EFF2DC0042A47C /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		8B5BA1BB22EFF2DC0042A47C /* CalendarDataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDataLoader.m; sourceTree = "<group>"; };
+		8B5BA1BC22EFF2DC0042A47C /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		8B5BA1BD22EFF2DC0042A47C /* CalendarDataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDataLoader.h; sourceTree = "<group>"; };
+		8B5BA1BF22EFF2DC0042A47C /* CYXCalendarDayCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXCalendarDayCollectionViewCell.h; sourceTree = "<group>"; };
+		8B5BA1C022EFF2DC0042A47C /* CYXCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXCalendarView.h; sourceTree = "<group>"; };
+		8B5BA1C122EFF2DC0042A47C /* CYXCalendarMonthTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXCalendarMonthTableViewCell.m; sourceTree = "<group>"; };
+		8B5BA1C222EFF2DC0042A47C /* CYXCalendarDayCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXCalendarDayCollectionViewCell.m; sourceTree = "<group>"; };
+		8B5BA1C322EFF2DC0042A47C /* CYXCalendarMonthTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXCalendarMonthTableViewCell.h; sourceTree = "<group>"; };
+		8B5BA1C422EFF2DC0042A47C /* CYXCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXCalendarView.m; sourceTree = "<group>"; };
+		8B5BA1C622EFF2DC0042A47C /* CYXCalendarDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXCalendarDay.h; sourceTree = "<group>"; };
+		8B5BA1C722EFF2DC0042A47C /* CYXCalendarMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXCalendarMonth.h; sourceTree = "<group>"; };
+		8B5BA1C822EFF2DC0042A47C /* CYXCalendarMonth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXCalendarMonth.m; sourceTree = "<group>"; };
+		8B5BA1C922EFF2DC0042A47C /* CYXCalendarDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXCalendarDay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +122,6 @@
 		8B5BA15F22EE83240042A47C /* CYXCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				8B5BA1A522EEA07B0042A47C /* Model */,
-				8B5BA1A222EEA07A0042A47C /* Utils */,
 				8B5BA19222EE837A0042A47C /* CYXCalenderView */,
 				8B5BA16022EE83240042A47C /* AppDelegate.h */,
 				8B5BA16122EE83240042A47C /* AppDelegate.m */,
@@ -159,34 +157,44 @@
 		8B5BA19222EE837A0042A47C /* CYXCalenderView */ = {
 			isa = PBXGroup;
 			children = (
-				8B5BA1AD22EEA0CF0042A47C /* CYXCalendarView.h */,
-				8B5BA1AE22EEA0CF0042A47C /* CYXCalendarView.m */,
-				8B5BA1B322EECC660042A47C /* CYXCalendarMonthTableViewCell.h */,
-				8B5BA1B422EECC660042A47C /* CYXCalendarMonthTableViewCell.m */,
-				8B5BA1B622EECFEB0042A47C /* CYXCalendarDayCollectionViewCell.h */,
-				8B5BA1B722EECFEB0042A47C /* CYXCalendarDayCollectionViewCell.m */,
+				8B5BA1C522EFF2DC0042A47C /* Model */,
+				8B5BA1B922EFF2DC0042A47C /* Utils */,
+				8B5BA1BE22EFF2DC0042A47C /* View */,
 			);
 			path = CYXCalenderView;
 			sourceTree = "<group>";
 		};
-		8B5BA1A222EEA07A0042A47C /* Utils */ = {
+		8B5BA1B922EFF2DC0042A47C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				8B5BA1B122EEA43F0042A47C /* UIView+Size.h */,
-				8B5BA1B022EEA43F0042A47C /* UIView+Size.m */,
-				8B5BA1A422EEA07A0042A47C /* CalendarDataLoader.h */,
-				8B5BA1A322EEA07A0042A47C /* CalendarDataLoader.m */,
+				8B5BA1BA22EFF2DC0042A47C /* UIView+Size.h */,
+				8B5BA1BB22EFF2DC0042A47C /* CalendarDataLoader.m */,
+				8B5BA1BC22EFF2DC0042A47C /* UIView+Size.m */,
+				8B5BA1BD22EFF2DC0042A47C /* CalendarDataLoader.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		8B5BA1A522EEA07B0042A47C /* Model */ = {
+		8B5BA1BE22EFF2DC0042A47C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8B5BA1A622EEA07B0042A47C /* CYXCalendarDay.h */,
-				8B5BA1A922EEA07B0042A47C /* CYXCalendarDay.m */,
-				8B5BA1A722EEA07B0042A47C /* CYXCalendarMonth.h */,
-				8B5BA1A822EEA07B0042A47C /* CYXCalendarMonth.m */,
+				8B5BA1BF22EFF2DC0042A47C /* CYXCalendarDayCollectionViewCell.h */,
+				8B5BA1C022EFF2DC0042A47C /* CYXCalendarView.h */,
+				8B5BA1C122EFF2DC0042A47C /* CYXCalendarMonthTableViewCell.m */,
+				8B5BA1C222EFF2DC0042A47C /* CYXCalendarDayCollectionViewCell.m */,
+				8B5BA1C322EFF2DC0042A47C /* CYXCalendarMonthTableViewCell.h */,
+				8B5BA1C422EFF2DC0042A47C /* CYXCalendarView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B5BA1C522EFF2DC0042A47C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA1C622EFF2DC0042A47C /* CYXCalendarDay.h */,
+				8B5BA1C722EFF2DC0042A47C /* CYXCalendarMonth.h */,
+				8B5BA1C822EFF2DC0042A47C /* CYXCalendarMonth.m */,
+				8B5BA1C922EFF2DC0042A47C /* CYXCalendarDay.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -322,15 +330,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B5BA16522EE83240042A47C /* ViewController.m in Sources */,
-				8B5BA1AF22EEA0CF0042A47C /* CYXCalendarView.m in Sources */,
-				8B5BA1B822EECFEB0042A47C /* CYXCalendarDayCollectionViewCell.m in Sources */,
-				8B5BA1AC22EEA07B0042A47C /* CYXCalendarDay.m in Sources */,
-				8B5BA1AB22EEA07B0042A47C /* CYXCalendarMonth.m in Sources */,
+				8B5BA1CF22EFF2DC0042A47C /* CYXCalendarMonth.m in Sources */,
+				8B5BA1CA22EFF2DC0042A47C /* CalendarDataLoader.m in Sources */,
+				8B5BA1CB22EFF2DC0042A47C /* UIView+Size.m in Sources */,
+				8B5BA1CE22EFF2DC0042A47C /* CYXCalendarView.m in Sources */,
 				8B5BA17022EE83300042A47C /* main.m in Sources */,
-				8B5BA1AA22EEA07B0042A47C /* CalendarDataLoader.m in Sources */,
+				8B5BA1D022EFF2DC0042A47C /* CYXCalendarDay.m in Sources */,
 				8B5BA16222EE83240042A47C /* AppDelegate.m in Sources */,
-				8B5BA1B222EEA43F0042A47C /* UIView+Size.m in Sources */,
-				8B5BA1B522EECC660042A47C /* CYXCalendarMonthTableViewCell.m in Sources */,
+				8B5BA1CD22EFF2DC0042A47C /* CYXCalendarDayCollectionViewCell.m in Sources */,
+				8B5BA1CC22EFF2DC0042A47C /* CYXCalendarMonthTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
